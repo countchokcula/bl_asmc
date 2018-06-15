@@ -20,4 +20,4 @@ _kernel:
 
     hlt
 kernel_load_success_msg db "Kernal loaded 0x8000", 0xa, 0
-times 510-($-$$) db 0
+times 512-($-$$) db 0
